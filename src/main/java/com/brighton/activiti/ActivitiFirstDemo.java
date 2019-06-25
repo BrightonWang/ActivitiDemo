@@ -25,9 +25,9 @@ public class ActivitiFirstDemo {
         RepositoryService repositoryService = processEngine.getRepositoryService();
         //部署对象
         Deployment deployment = repositoryService.createDeployment()
-                .addClasspathResource("diagram/holiday.bpmn")
-                .addClasspathResource("diagram/holiday.png")
-                .name("请假申请流程")
+                .addClasspathResource("diagram/test3.bpmn")
+//                .addClasspathResource("diagram/test.png")
+                .name("bbbb")
                 .deploy();
         /**
             创建25张表格
